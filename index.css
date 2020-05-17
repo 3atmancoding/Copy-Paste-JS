@@ -1,0 +1,26 @@
+body {
+  background-color: #01235c;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyicon {
+  position: relative;
+  left: -33px;
+  color: #ebce00;
+}
+.copyText {
+  width: 450px;
+  height: 30px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #003897;
+  color: #ebce00;
+  padding: 2%;
+  font-family: monospace;
+}
+.copyText:focus {
+  outline: none;
+}
